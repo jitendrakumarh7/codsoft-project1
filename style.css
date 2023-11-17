@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.mainphoto
+{
+	/* margin-left: 30px; */
+	background-image: url('Screenshot\ 2023-10-28\ 143217.png');
+	height: 800px;
+	background-repeat: no-repeat;
+	/* width: 1450px; */
+	background-size:100% 100%;
+}
+header {
+    background-color: #333;
+	height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+#skills { color: #FF5733; }
+#opensource { color: #33FF57; }
+#projects { color: #5733FF; }
+#achievements { color: #FF33A2; }
+#blogs { color: #33A2FF; }
+#talks { color: #FFA233; }
+#contact { color: #A233FF; }
+.iam
+{
+	padding-left: 150px;
+padding-top: 150px;
+color: #fff;
+}
+.whatido
+{
+float: left;
+background-image: url('man-8106958_640.png');
+height: 500px;
+width: 50%;
+/* background-color: #FF33A2; */
+}
+.whatido1
+{
+float: left;
+background-image: url('tablet-314153_640.png');
+width: 50%;
+height: 500px;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+/* background-color: #33FF57; */
+}
+.skill{
+margin-top: 50px;
+padding-top: 200px;
+padding-left: 150px;
+height: 800px;
+background-color: #88b8e9;
+}
+.skill-container {
+    float: left;
+    width: 500px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.skill-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #f0f0f0;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.skill-fill {
+    border-radius: 10px;
+    background-color: #0073e6;
+    height: 100%;
+    width: 80%; /* Change this to set the skill percentage */
+    transition: width 5s ease; /* Add a smooth animation */
+}
+
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f4f7f7;
+    padding: 20px;
+}
+
+.certificate {
+    width: 420px;
+    height: 100px;
+    float: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.certificate:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+}
+
+.certificate-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.certificate-description {
+    margin-top: 5px;
+}
+
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+
